@@ -4,7 +4,6 @@ body{
 }
 
 .imgfacebook{
-    
     width: 301px;
     height: 106px;
     padding: 112px 0 px 16px;
@@ -166,25 +165,27 @@ nav ul li a{
 }
 /*media@queris mobile 480px*/
 @media screen and (max-width: 480px) {
-   body{
+  body{
         display: flex;
         justify-content: center;
-
+        margin:0px;
+    
     }
     main{
     flex-direction: column;
     align-items: center;
     margin: 0px;
+    padding:0px
 
     }
     .icono{
         display:block;
-        border-radius: 50%;
+        border-radius:50%;
       margin: 25px 150px ;
 
     }
     .imgfacebook{
-        display: none;
+        display:none;
     }
     h2{
         display:none;
@@ -213,7 +214,7 @@ nav ul li a{
         color: black;
     }
     .famous{
-        color:#f0f2f5
+        color:#f0f2f5;
     }
     footer{
         display: none;
