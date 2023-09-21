@@ -166,8 +166,15 @@ nav ul li a{
 }
 /*media@queris mobile 480px*/
 @media screen and (max-width: 480px) {
+   body{
+        display: flex;
+        justify-content: center;
+
+    }
     main{
     flex-direction: column;
+    align-items: center;
+    margin: 0px;
 
     }
     .icono{
@@ -206,7 +213,7 @@ nav ul li a{
         color: black;
     }
     .famous{
-        display:none
+        color:#f0f2f5
     }
     footer{
         display: none;
@@ -214,5 +221,3 @@ nav ul li a{
    
     
 }
-
-
