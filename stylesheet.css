@@ -2,12 +2,21 @@ body{
     background-color: #f0f2f5;
     
 }
-img{
+
+.imgfacebook{
+    
     width: 301px;
     height: 106px;
     padding: 112px 0 px 16px;
 
+
 }
+.icono {
+    display: none;
+    width: 80px;
+    height: 80px;
+    
+  }
 main{
     display: flex;
     justify-content: space-evenly;
@@ -135,9 +144,6 @@ input:focus {
 .idiomas{
     display: flex;
 
-   
-    
-    
 }
 .fa-plus{
     color: #696868;
@@ -156,6 +162,56 @@ nav ul li a{
     padding: 4px 8px;
     display: flex;
     flex-wrap: wrap;
+    
+}
+/*media@queris mobile 480px*/
+@media screen and (max-width: 480px) {
+    main{
+    flex-direction: column;
+
+    }
+    .icono{
+        display:block;
+        border-radius: 50%;
+      margin: 25px 150px ;
+
+    }
+    .imgfacebook{
+        display: none;
+    }
+    h2{
+        display:none;
+    }
+    .segundoContainer{
+        background-color:#f0f2f5;
+    }
+    form{
+        width: 90%vw;
+        
+    }
+    .btn-login{
+        border-radius: 50px;
+    }
+    .btn-crear-cta{
+        background-color: #f0f2f5;
+        color:#1877f2;
+        border:1px solid #1877f2;
+        border-radius: 70px;
+        margin-top: 100px;
+    }
+    .linea{
+        display:none;
+    }
+    .olvido-contraseña{
+        color: black;
+    }
+    .famous{
+        display:none
+    }
+    footer{
+        display: none;
+    }
+   
     
 }
 
